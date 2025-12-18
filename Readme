@@ -1,18 +1,14 @@
+An 8086 Assembly-based power management system featuring keypad security, LCD interfacing, and automated relay-controlled shutdown timers. 
+
+Topics: 8086-assembly, embedded-systems, proteus-simulation, 8255-ppi, microprocessor-interfacing.
+
 🛠 Tech Stack
 
 Processor: Intel 8086.
 
-
-
 Language: x16 Assembly (MASM32).
 
-
 Peripherals: 8255 PPI (I/O), 8253 PIT (Timer), 16x2 LCD, Matrix Keypad.
-
-
-
-
-
 
 Simulation: Proteus VSM.
 
@@ -20,15 +16,8 @@ Simulation: Proteus VSM.
 
 Security Layer: 4-digit reversed-password authentication ("6452") with masked asterisk input.
 
-
 Power Management: Independent control for Air Conditioning, Power Outlets, and Lighting.
 
-
 Programmable Shutdown: Custom timer function (1–9 minutes) using the 8253 PIT for delayed branch shutdown.
-
-
-
-
-
 
 Hardware Interface: Direct port-mapped I/O for real-time status updates.
